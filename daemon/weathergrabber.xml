@@ -1,0 +1,26 @@
+<service>
+	<id>weathergrabber.exe</id>
+	<name>Weather grabber</name>
+	<description>Grabs current weather every 15 mins from Apixu API</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<logmode>rotate</logmode>
+	<argument>--harmony</argument>
+	<argument>--max_old_space_size=4096</argument>
+	<argument>C:\Users\vanyakin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\_me\Dev\weather-grabber\index.js</argument>
+	<argument>--log</argument>
+	<argument>Weather grabber wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.5</argument>
+	<argument>--wait</argument>
+	<argument>2</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<stoptimeout>30sec</stoptimeout>
+	<workingdirectory>C:\_me\Dev\weather-grabber</workingdirectory>
+</service>

@@ -1,0 +1,17 @@
+{
+  "name": "weather-grabber",
+  "version": "1.0.0",
+  "description": "Grab current weather data from Apixu and store in MongoDB. Runs as a service",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "lodash": "^4.17.11",
+    "mongodb": "^3.2.3",
+    "node-cron": "^2.0.3"
+  }
+}

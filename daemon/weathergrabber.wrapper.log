@@ -1,0 +1,2 @@
+2019-04-25 15:20:45 - Starting C:\Program Files\nodejs\node.exe  --harmony --max_old_space_size=4096 C:\Users\vanyakin\AppData\Roaming\npm\node_modules\node-windows\lib\wrapper.js --file C:\_me\Dev\weather-grabber\index.js --log "Weather grabber wrapper" --grow 0.5 --wait 2 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2019-04-25 15:20:45 - Started 96040
